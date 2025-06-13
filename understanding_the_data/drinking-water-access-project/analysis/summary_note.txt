@@ -1,0 +1,26 @@
+📝 Summary Note: Access to Drinking Water Project – Understanding the Data
+This project aims to explore and analyze global disparities in access to drinking water using publicly available or shared datasets. In the initial phase, the focus has been on understanding the raw data, cleaning it, and visualizing important patterns through Excel-based charts.
+
+🔍 Objectives of the First Phase:
+To assess the levels of water service access by region (urban, rural, national).
+
+To examine how access to safe water correlates with income levels across countries.
+
+To visualize the national distribution of water access service levels.
+
+📊 Key Data Features:
+Water access categories: At least Basic, Limited, Unimproved, and Surface Water.
+
+Population groups: Urban vs Rural.
+
+Income levels: Grouped from 1 (Low) to 4 (High).
+
+National-level data from around 2020 (with population size distribution for context).
+
+📈 Insights from Initial Visualizations:
+Access to safe drinking water is higher in urban and high-income settings, while rural and low-income populations often rely on limited or unsafe sources.
+
+There's a strong correlation between income group and access type, emphasizing infrastructure and policy disparities.
+
+National distribution shows that population size does not guarantee equitable access, with several populous nations still heavily reliant on unimproved sources.
+
