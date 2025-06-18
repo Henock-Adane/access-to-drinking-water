@@ -19,7 +19,6 @@ This is an ongoing data analysis project focused on understanding global dispari
 📁 data/              -> Cleaned datasets (e.g., Excel files)
 📁 charts/            -> Visualizations (bar charts, line graphs, etc.)
 📁 analysis/          -> Notes and observations from initial exploration
-📁 future/            -> Placeholder for dashboards, transformed data, etc.
 📄 README.md          -> Project overview and instructions
 ```
 
@@ -37,7 +36,6 @@ This is an ongoing data analysis project focused on understanding global dispari
 - Google Sheets
 - Data Cleaning
 - Chart Visualization
-- [Power BI (planned)]
 
 ---
 
