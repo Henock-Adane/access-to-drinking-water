@@ -1,0 +1,20 @@
+In the "Transforming the data" stage of the project, we moved beyond just understanding the raw data to actively process, analyze, and interpret it to reveal deeper insights into global water access.
+
+Here's a short summary of what we found out:
+
+* **Dataset Understanding and Transformation:** We became familiar with the dataset's specific range (2000-2020) and key features. We then created new derived features crucial for analysis, including:
+    * **`y_diff` (Year Difference):** To understand the time gaps between data collection points for each country.
+    * **Annual Rates of Change (ARC):** Calculated `ARC_n` (national), `ARC_r` (rural), and `ARC_u` (urban) to quantify the average yearly change in basic water access. We also addressed data quality issues by handling "null" values and errors in these calculations.
+    * **Rounded Water Access & "Full Access" Flags:** To accurately identify countries that have achieved 100% basic water access, which is crucial for interpreting average ARC values.
+    * **`ARC_diff`:** The difference between rural and urban ARCs, to understand the disparity in progress between these areas.
+    * **Region Data:** Integrated regional classifications into our dataset to enable geographical analysis.
+
+* **Key Findings & Insights:**
+    * **Varied Data Collection:** Noted that data was not collected every year for every country, impacting time-series analysis.
+    * **ARC Trends:** Gained insights into the rates of change in water access across national, rural, and urban levels. We learned the importance of excluding countries with "full access" to avoid skewing average progress rates.
+    * **Access Categorization:** Categorized countries based on whether their basic water access was decreasing (`ARC < 0`), stagnant (`ARC = 0` but not at 100% access), or increasing (`ARC > 0`).
+    * **Rural vs. Urban Disparities:** Analyzed the `ARC_diff` to understand if rural areas are catching up to or falling further behind urban areas in terms of progress.
+    * **Regional Performance:** Began to assess how ARCs compare across different regions, highlighting areas of rapid progress and significant challenges.
+    * **Sub-Saharan Africa Projection:** A critical finding emerged: based on the current Annual Rate of Change derived from the 2000-2020 data, **Sub-Saharan Africa is projected to not achieve full water access until approximately 2080**. This emphasizes the urgent need for intervention to accelerate progress.
+
+This stage provided a robust analytical foundation, transforming raw data into actionable insights and paving the way for deeper understanding and potential policy recommendations.
